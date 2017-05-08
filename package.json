@@ -1,0 +1,23 @@
+{
+  "name": "object-history",
+  "version": "1.0.0",
+  "description": "Allows for creation of JS objects that track the history of values for all of its properties.",
+  "main": "build/index.js",
+  "scripts": {
+  	"build": "babel src -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petershafer/object-history.git"
+  },
+  "babel": {
+  	"presets": ["latest"]
+  },
+  "author": "Peter Shafer (http://www.github.com/petershafer)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
